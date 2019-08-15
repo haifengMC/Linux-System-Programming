@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01wait与waitpid", "01wait�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02僵尸进程测试", "02僵尸进程测试\02僵尸进程测试.vcxproj", "{24E49A82-5C02-42F0-B972-C07DB1688ACF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03exec函数族", "03exec函数族\03exec函数族.vcxproj", "{349CFD1F-535B-4C53-BC99-254567C2E282}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -51,6 +53,22 @@ Global
 		{24E49A82-5C02-42F0-B972-C07DB1688ACF}.Release|x64.Build.0 = Release|x64
 		{24E49A82-5C02-42F0-B972-C07DB1688ACF}.Release|x86.ActiveCfg = Release|x86
 		{24E49A82-5C02-42F0-B972-C07DB1688ACF}.Release|x86.Build.0 = Release|x86
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Debug|ARM.ActiveCfg = Debug|ARM
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Debug|ARM.Build.0 = Debug|ARM
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Debug|ARM64.Build.0 = Debug|ARM64
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Debug|x64.ActiveCfg = Debug|x64
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Debug|x64.Build.0 = Debug|x64
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Debug|x86.ActiveCfg = Debug|x86
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Debug|x86.Build.0 = Debug|x86
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Release|ARM.ActiveCfg = Release|ARM
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Release|ARM.Build.0 = Release|ARM
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Release|ARM64.ActiveCfg = Release|ARM64
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Release|ARM64.Build.0 = Release|ARM64
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Release|x64.ActiveCfg = Release|x64
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Release|x64.Build.0 = Release|x64
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Release|x86.ActiveCfg = Release|x86
+		{349CFD1F-535B-4C53-BC99-254567C2E282}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
