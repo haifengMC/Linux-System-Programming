@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01互斥锁", "01互斥锁\01互斥锁.vcxproj", "{A170BBA7-208A-4417-AF4B-64E7FF12964A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02读写锁", "02读写锁\02读写锁.vcxproj", "{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,6 +35,22 @@ Global
 		{A170BBA7-208A-4417-AF4B-64E7FF12964A}.Release|x64.Build.0 = Release|x64
 		{A170BBA7-208A-4417-AF4B-64E7FF12964A}.Release|x86.ActiveCfg = Release|x86
 		{A170BBA7-208A-4417-AF4B-64E7FF12964A}.Release|x86.Build.0 = Release|x86
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Debug|ARM.Build.0 = Debug|ARM
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Debug|ARM64.Build.0 = Debug|ARM64
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Debug|x64.ActiveCfg = Debug|x64
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Debug|x64.Build.0 = Debug|x64
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Debug|x86.ActiveCfg = Debug|x86
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Debug|x86.Build.0 = Debug|x86
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Release|ARM.ActiveCfg = Release|ARM
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Release|ARM.Build.0 = Release|ARM
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Release|ARM64.ActiveCfg = Release|ARM64
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Release|ARM64.Build.0 = Release|ARM64
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Release|x64.ActiveCfg = Release|x64
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Release|x64.Build.0 = Release|x64
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Release|x86.ActiveCfg = Release|x86
+		{8CAEBF5C-2101-40E3-A94C-3DB69187E28A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
