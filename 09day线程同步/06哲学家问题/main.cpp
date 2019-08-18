@@ -6,7 +6,7 @@ using namespace std;
 
 #define THREAD_NUM 5
 
-pthread_mutex_t mutexArr[THREAD_NUM], ;
+pthread_mutex_t mutexArr[THREAD_NUM];
 
 void* threadProc(void* param)
 {
