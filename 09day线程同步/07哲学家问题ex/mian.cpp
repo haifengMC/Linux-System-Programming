@@ -30,11 +30,11 @@ void* threadProc(void* param)
 		else
 			pthread_cond_wait(syncCond + i, syncMutexArr + i);
 		
-		cout << "mutex[" << i << "]: " << (i + 1) % THREAD_NUM << endl;
+		//cout << "mutex[" << i << "]: " << (i + 1) % THREAD_NUM << endl;
 		pthread_mutex_lock(&mutexArr[(i + 1) % THREAD_NUM]);
-		cout << "mutex["<< i <<"]: " << (i + 1) % THREAD_NUM << " ok" << endl;
+		//cout << "mutex["<< i <<"]: " << (i + 1) % THREAD_NUM << " ok" << endl;
 		pthread_mutex_lock(&mutexArr[i]);
-		cout << "mutex[" << i << "]: " << i << " ok" << endl;
+		//cout << "mutex[" << i << "]: " << i << " ok" << endl;
 
 		cout << "thread: " << i << " ok" << endl;
 
