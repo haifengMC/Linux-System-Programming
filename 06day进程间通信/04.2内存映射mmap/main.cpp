@@ -14,7 +14,7 @@ int main()
 	int fd = open("mmap", O_RDWR | O_CREAT, 0666);
 	truncate("mmap", FILE_SIZE);
 
-	char* map = (char*)mmap(NULL, FILE_SIZE, 
+	char* map = (char*)mmap(NULL, FILE_SIZE,
 		PROT_READ | PROT_WRITE, MAP_SHARED, fd, 0);
 
 	if (MAP_FAILED == map)
@@ -35,16 +35,16 @@ int main()
 		{
 			char buf[64] = { 0 };
 			int n = read(STDIN_FILENO, buf, sizeof(buf) - 1);
-			memcpy(map, buf, n - 1);
+			memcpy(map + FILE_SIZE / 2, buf, n - 1);
 		}
 		break;
 	default:
 		while (true)
 		{
 			char buf[64] = { 0 };
-			if (0 == memcmp(map + FILE_SIZE / 2, buf, sizeof(buf))) continue;
-			memcpy(buf, map + FILE_SIZE / 2, sizeof(buf));
-			memset(map + FILE_SIZE / 2, 0, sizeof(buf));
+			if (0 == memcmp(map, buf, sizeof(buf))) continue;
+			memcpy(buf, map, sizeof(buf));
+			memset(map, 0, sizeof(buf));
 			cout << buf << endl;
 		}
 		break;
